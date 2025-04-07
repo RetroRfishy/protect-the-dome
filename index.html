@@ -3,16 +3,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Protect the Dome</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f0fdf4;
+      color: #1b4332;
+    }
+    header {
+      background-color: #2d6a4f;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #40916c;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background-color: #d8f3dc;
+      border-left: 6px solid #40916c;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+    }
+    .card img, .visual img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .warning {
+      background-color:#ffe8cc;
+      border-left:6px solid #e76f51;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #b7e4c7;
+      color: #081c15;
+    }
+  </style>
 </head>
 <body>
-  <h1>Protect the Dome</h1>
-  <p>Visuals like these show the hidden effects of repeated head trauma.</p>
+  <header>
+    <h1>Protect the Dome</h1>
+    <p>Fighting isn’t mindless — protect what matters most.</p>
+  </header>
 
-  <h2>CT Scan of Subdural Hematoma</h2>
-  <img src="knopman_subdural_hematoma.png" alt="Subdural Hematoma CT Scan" style="max-width: 100%; border-radius: 8px;">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="myths.html">Myths & Methods</a>
+    <a href="quiz.html">Brain Check Quiz</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <h2>Normal Brain vs Advanced CTE</h2>
-  <img src="Chronic_Traumatic_Encephalopathy.png" alt="CTE Brain vs Normal Brain" style="max-width: 100%; border-radius: 8px;">
+  <section>
+    <h2>Why Brain Health Matters</h2>
+    <p>Combat sports put incredible stress on the body — and the brain. Repeated head trauma can lead to long-term cognitive damage, emotional instability, and chronic neurological conditions like CTE. Understanding the risks is the first step toward prevention.</p>
+
+    <div class="visual">
+      <h3>CT Scan of Subdural Hematoma</h3>
+      <img src="knopman_subdural_hematoma.png" alt="Subdural Hematoma CT Scan">
+    </div>
+
+    <div class="visual">
+      <h3>Normal Brain vs Advanced CTE</h3>
+      <img src="Chronic_Traumatic_Encephalopathy.png" alt="CTE Brain vs Normal Brain">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Protect the Dome. All rights reserved.</p>
+  </footer>
 </body>
 </html>
