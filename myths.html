@@ -8,35 +8,45 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0fdf4;
       color: #1b4332;
-      line-height: 1.6;
     }
     header {
       background-color: #2d6a4f;
       color: white;
+      padding: 2rem 1rem;
       text-align: center;
-      padding: 3rem 1rem;
     }
-    h1 {
-      font-size: 2.5rem;
+    nav {
+      background-color: #40916c;
+      text-align: center;
+      padding: 1rem;
     }
-    section {
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
       max-width: 1000px;
       margin: auto;
       padding: 2rem 1.5rem;
     }
-    .myth-card, .method-card {
+    h2 {
+      color: #1b4332;
+      margin-top: 2rem;
+    }
+    .myth, .method {
       background-color: #d8f3dc;
       border-left: 6px solid #40916c;
       padding: 1rem;
       margin: 1rem 0;
       border-radius: 0.5rem;
     }
-    .source {
-      font-size: 0.9rem;
-      color: #2d6a4f;
+    .myth strong {
+      color: #bc4749;
     }
     footer {
       text-align: center;
@@ -44,67 +54,58 @@
       background-color: #b7e4c7;
       color: #081c15;
     }
-    a {
-      color: #1b4332;
-    }
   </style>
 </head>
 <body>
   <header>
     <h1>Myths & Methods</h1>
-    <p>Evidence-based clarity to keep fighters sharp and safe.</p>
+    <p>Getting smarter about what really protects your brain.</p>
   </header>
 
-  <nav style="background-color: #40916c; text-align: center; padding: 1rem;">
-    <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">← Back to Home</a>
+  <nav>
+    <a href="index.html">← Back to Home</a>
   </nav>
 
+  <main>
+    <h2>Common Myths About Head Trauma</h2>
 
-  <section>
-    <h2>Common Myths About Brain Health in Combat Sports</h2>
-
-    <div class="myth-card">
-      <strong>Myth: Headgear prevents brain trauma</strong>
-      <p>Headgear reduces superficial injuries like cuts and bruises but does not prevent concussions or brain trauma. The brain still rattles inside the skull upon impact.</p>
-      <p class="source">Source: <a href="https://pubmed.ncbi.nlm.nih.gov/15883114/" target="_blank">McIntosh et al., British Journal of Sports Medicine</a></p>
+    <div class="myth">
+      <strong>Myth:</strong> “Headgear protects you from concussions.”
+      <p><em>Reality:</em> Studies show that while headgear can reduce cuts and superficial trauma, it does not significantly prevent concussions. Concussions are caused by the brain moving inside the skull — headgear doesn’t stop that acceleration.</p>
     </div>
 
-    <div class="myth-card">
-      <strong>Myth: Only knockouts cause long-term damage</strong>
-      <p>It’s often the accumulation of small, repetitive impacts that leads to chronic issues like CTE or subdural hematomas, not just high-impact knockouts.</p>
-      <p class="source">Source: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2657493/" target="_blank">Guskiewicz et al., Neurosurgery</a></p>
+    <div class="myth">
+      <strong>Myth:</strong> “You’re fine as long as you don’t get knocked out.”
+      <p><em>Reality:</em> Many fighters suffer brain damage without ever being KO’d. It’s the repeated smaller impacts — especially in sparring — that build up over time and do lasting damage.</p>
     </div>
 
-    <div class="myth-card">
-      <strong>Myth: Symptoms show up immediately</strong>
-      <p>Many symptoms of brain trauma — memory issues, emotional changes, speech slurring — develop subtly over time, often going unnoticed until damage is severe.</p>
-      <p class="source">Source: <a href="https://www.cdc.gov/traumaticbraininjury/get_the_facts.html" target="_blank">CDC - TBI Facts</a></p>
-    </div>
-  </section>
-
-  <section>
-    <h2>Smart Methods for Preventing Brain Trauma</h2>
-
-    <div class="method-card">
-      <strong>Limit hard sparring</strong>
-      <p>Reserve full-contact sparring for specific situations. Focus the majority of training on technical drilling, light flow sparring, and situational rounds.</p>
+    <div class="myth">
+      <strong>Myth:</strong> “CTE only happens to pros.”
+      <p><em>Reality:</em> CTE has been documented in teenage athletes and amateurs. Duration and frequency of trauma matter more than whether you got paid to compete.</p>
     </div>
 
-    <div class="method-card">
-      <strong>Track rounds & symptoms</strong>
-      <p>Keep a training journal to track sparring intensity, head impacts, and post-session symptoms. This helps spot patterns before serious injury sets in.</p>
+    <h2>Science-Backed Prevention Methods</h2>
+
+    <div class="method">
+      <strong>1. Track Your Sparring:</strong>
+      <p>Keep a journal or log of your sparring days, intensity, and any symptoms (headaches, fogginess, mood swings). Patterns can help you recognize early red flags before they become serious.</p>
     </div>
 
-    <div class="method-card">
-      <strong>Strengthen the neck & posture</strong>
-      <p>Strong neck muscles reduce head acceleration on impact. Proper posture and alignment also reduce force transfer to the brain.</p>
+    <div class="method">
+      <strong>2. Prioritize Neck Strength:</strong>
+      <p>Stronger necks reduce rotational acceleration during impact. Simple exercises like resisted flexion and neck bridges help protect the brain. Research from the Journal of Neurosurgery confirms this link.</p>
     </div>
 
-    <div class="method-card">
-      <strong>Prioritize rest & recovery</strong>
-      <p>Sleep is vital for cognitive recovery. Overtraining while concussed or exhausted raises the risk of second impact syndrome and worsens long-term outcomes.</p>
+    <div class="method">
+      <strong>3. Take Recovery Seriously:</strong>
+      <p>After even mild symptoms, take time off. One study in the British Journal of Sports Medicine found that returning too early can double recovery time or worsen long-term damage.</p>
     </div>
-  </section>
+
+    <div class="method">
+      <strong>4. Sleep & Nutrition:</strong>
+      <p>The brain recovers during deep sleep. Prioritize at least 8 hours per night, plus omega-3s (like fish oil), antioxidants (like berries), and hydration. These support neuroplasticity and healing.</p>
+    </div>
+  </main>
 
   <footer>
     <p>&copy; 2025 Protect the Dome. All rights reserved.</p>
